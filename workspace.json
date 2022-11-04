@@ -2,7 +2,8 @@
   "version": 2,
   "projects": {
     "demo": "apps/demo",
-    "demo-angular": "apps/demo-angular"
+    "demo-angular": "apps/demo-angular",
+    "sdk": "packages/sdk"
   },
   "$schema": "./node_modules/nx/schemas/workspace-schema.json"
 }

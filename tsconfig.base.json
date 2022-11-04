@@ -20,7 +20,10 @@
       }
     ],
     "paths": {
-      "@demo/shared": ["tools/demo/index.ts"]
+      "@demo/shared": ["tools/demo/index.ts"],
+      "@alokparikh16/*": ["packages/*"],
+      "@alokparikh16/sdk": ["packages/sdk/index.d.ts"],
+      "@alokparikh16/sdk/angular": ["packages/sdk/angular/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
