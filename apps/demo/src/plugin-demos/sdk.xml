@@ -1,14 +1,17 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" class="page">
-    <Page.actionBar>
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:ln="@alokparikh16/sdk" navigatingTo="navigatingTo" class="page">
+    <!-- <Page.actionBar>
         <ActionBar title="sdk" icon="" class="action-bar">
         </ActionBar>
-    </Page.actionBar>
-    <StackLayout class="p-20">
+    </Page.actionBar> -->
+    <!-- <StackLayout class="p-20">
         <ScrollView class="h-full">
-          <StackLayout>
+          <GridLayout>
             <Button text="Test sdk" tap="{{ testIt }}" class="btn btn-primary"/>
-
-          </StackLayout>
+            <ln:Sdk src="https://www.google.com" clientId="{{ clientId }}"></ln:Sdk>
+          </GridLayout>
         </ScrollView>
-    </StackLayout>
+    </StackLayout> -->
+    <GridLayout>
+        <ln:Sdk clientId="{{ clientId }}" token="changeme1"></ln:Sdk>
+    </GridLayout>
 </Page>

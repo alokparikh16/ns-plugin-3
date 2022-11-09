@@ -7,4 +7,10 @@ export function navigatingTo(args: EventData) {
   page.bindingContext = new DemoModel();
 }
 
-export class DemoModel extends DemoSharedSdk {}
+export class DemoModel extends DemoSharedSdk {
+  public clientId = 'FRUslWCy_XFDQ6QKfO9TL';
+
+  constructor() {
+    super();
+  }
+}
