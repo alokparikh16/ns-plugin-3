@@ -12,6 +12,6 @@
         </ScrollView>
     </StackLayout> -->
     <GridLayout>
-        <ln:Sdk clientId="{{ clientId }}" token="changeme1"></ln:Sdk>
+        <ln:Sdk clientId="{{ clientId }}" token="changeme"></ln:Sdk>
     </GridLayout>
 </Page>
